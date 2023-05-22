@@ -4,6 +4,8 @@ import NaturalProcess from './FeaturesCards/NaturalProcess';
 import BiologicallySafe from './FeaturesCards/BiologicallySafe';
 import OrganicProducts from './FeaturesCards/OrganicProducts';
 
+import '../styles/SectionHeader.scss';
+
 const FeatureSection = () => {
     return (
         <div className="container-fluid bg-light bg-icon my-5 py-6">

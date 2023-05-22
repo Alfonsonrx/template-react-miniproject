@@ -2,6 +2,8 @@ import React from 'react';
 
 import aboutImg from '../assets/img/about.jpg'
 
+import '../styles/About.scss';
+
 const AboutSection = () => {
     return (
         <div className="container-xxl py-5">

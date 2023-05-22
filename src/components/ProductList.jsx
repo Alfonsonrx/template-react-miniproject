@@ -2,6 +2,9 @@ import React from 'react';
 
 import TabPane from './TabPane';
 
+import '../styles/SectionHeader.scss';
+import '../styles/Product.scss'
+
 const ProductList = () => {
     return (
         <div className="container-xxl py-5">
