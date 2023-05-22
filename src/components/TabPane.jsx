@@ -23,7 +23,7 @@ const TabPane = () => {
             <ProductItem prodimage={productImage7} />
             <ProductItem prodimage={productImage8} />
             <div className="col-12 text-center wow fadeInUp" data-wow-delay="0.01s">
-                <a className="btn btn-primary rounded-pill py-3 px-5" href>Browse More Products</a>
+                <a className="btn btn-primary rounded-pill py-3 px-5" href="/">Browse More Products</a>
             </div>
         </div>
     );

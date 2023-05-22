@@ -11,10 +11,10 @@ const Footer = () => {
                         <h1 className="fw-bold text-primary mb-4">F<span className="text-secondary">oo</span>dy</h1>
                         <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
                         <div className="d-flex pt-2">
-                            <a className="btn btn-square btn-outline-light rounded-circle me-1" href><i className="fab fa-twitter" /></a>
-                            <a className="btn btn-square btn-outline-light rounded-circle me-1" href><i className="fab fa-facebook-f" /></a>
-                            <a className="btn btn-square btn-outline-light rounded-circle me-1" href><i className="fab fa-youtube" /></a>
-                            <a className="btn btn-square btn-outline-light rounded-circle me-0" href><i className="fab fa-linkedin-in" /></a>
+                            <a className="btn btn-square btn-outline-light rounded-circle me-1" href="/"><i className="fab fa-twitter" /></a>
+                            <a className="btn btn-square btn-outline-light rounded-circle me-1" href="/"><i className="fab fa-facebook-f" /></a>
+                            <a className="btn btn-square btn-outline-light rounded-circle me-1" href="/"><i className="fab fa-youtube" /></a>
+                            <a className="btn btn-square btn-outline-light rounded-circle me-0" href="/"><i className="fab fa-linkedin-in" /></a>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -25,11 +25,11 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h4 className="text-light mb-4">Quick Links</h4>
-                        <a className="btn btn-link" href>About Us</a>
-                        <a className="btn btn-link" href>Contact Us</a>
-                        <a className="btn btn-link" href>Our Services</a>
-                        <a className="btn btn-link" href>Terms &amp; Condition</a>
-                        <a className="btn btn-link" href>Support</a>
+                        <a className="btn btn-link" href="/about">About Us</a>
+                        <a className="btn btn-link" href="/contact">Contact Us</a>
+                        <a className="btn btn-link" href="/">Our Services</a>
+                        <a className="btn btn-link" href="/">Terms &amp; Condition</a>
+                        <a className="btn btn-link" href="/">Support</a>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h4 className="text-light mb-4">Newsletter</h4>

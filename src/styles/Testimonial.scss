@@ -28,14 +28,17 @@
     justify-content: center;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
+.testimonial-carousel .react-multiple-carousel__arrow::before {
+    color: var(--dark);
+}
+.testimonial-carousel .react-multiple-carousel__arrow {
     margin: 0 12px;
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: var(--light) !important;
     color: var(--dark);
     border: 2px solid var(--primary);
     border-radius: 50px;
@@ -43,8 +46,9 @@
     transition: .5s;
 }
 
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
+.testimonial-carousel .react-multiple-carousel__arrow:hover{
+    background: var(--primary) !important;
+}
+.testimonial-carousel .react-multiple-carousel__arrow:hover:before{
     color: #FFFFFF;
-    background: var(--primary);
 }
