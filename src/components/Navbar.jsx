@@ -48,13 +48,13 @@ const Navbar = () => {
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <a href="/" className="nav-item nav-link active">Home</a>
                         <a href="/about" className="nav-item nav-link">About Us</a>
-                        <a href="/product" className="nav-item nav-link">Products</a>
+                        <a href="/products" className="nav-item nav-link">Products</a>
                         <div className="nav-item dropdown">
                             <a href="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu m-0">
-                                <a href="/blog" className="dropdown-item">Blog Grid</a>
-                                <a href="/feature" className="dropdown-item">Our Features</a>
-                                <a href="/testimonial" className="dropdown-item">Testimonial</a>
+                                <a href="/blogs" className="dropdown-item">Blog Grid</a>
+                                <a href="/features" className="dropdown-item">Our Features</a>
+                                <a href="/reviews" className="dropdown-item">Testimonial</a>
                                 <a href="/404" className="dropdown-item">404 Page</a>
                             </div>
                         </div>

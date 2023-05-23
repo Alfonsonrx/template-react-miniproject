@@ -20,6 +20,9 @@ const BlogSection = () => {
                     <BlogItem blogImage={blogFrontPage1}/>
                     <BlogItem blogImage={blogFrontPage2}/>
                     <BlogItem blogImage={blogFrontPage3}/>
+                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="/blogs">Load More</a>
+                    </div>
                 </div>
             </div>
         </div>
